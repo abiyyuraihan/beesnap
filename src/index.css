@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen text-slate-100 antialiased;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(255, 0, 224, 0.25) 0, rgba(3, 0, 20, 0) 55%),
+    radial-gradient(circle at 85% 0%, rgba(0, 229, 255, 0.22) 0, rgba(0, 12, 26, 0) 65%),
+    linear-gradient(135deg, #030014 0%, #090424 52%, #00121b 100%);
+}
+
